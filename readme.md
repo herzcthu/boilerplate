@@ -3,10 +3,17 @@
 ## Installation
 
 Clone this repository
+rename .env.example to .env
+
 run
 ```bash
 composer install
 ```
+if error occur at this stage add random key string to APP_KEY in .env file and run
+
+```bash
+php artisan key:generate
+``` 
 
 copy the following to config/app.php in service provider section
 ```php
