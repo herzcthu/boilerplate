@@ -3,6 +3,10 @@
 ## Installation
 
 Clone this repository
+run
+```bash
+composer install
+```
 
 copy the following to config/app.php in service provider section
 ```php
